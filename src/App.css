@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  width: 100vw;
+  height: 100vh;
+}
+.main{
+  width: 100vw;
+  height: 100vh;
+  background-image:url(https://images.unsplash.com/photo-1644525518932-206c9789340d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+  background-position:center;
+  background-size: cover;
+}
+.bg{
+  width: inherit;
+  height: inherit;
+  backdrop-filter: blur(8px);
+  padding-top: 2vmin;
+}
